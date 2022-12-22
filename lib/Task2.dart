@@ -9,12 +9,7 @@ class Task_2 extends StatelessWidget{
       appBar: AppBar(
         title: const Text('MSP' , style: TextStyle( fontSize: 30 , fontWeight: FontWeight.bold , color: Colors.white ),),
         centerTitle: true,
-        leading: IconButton(
-          icon: Icon(Icons.arrow_back),
-          onPressed: (){
-            Navigator.pop(context);
-          },
-        ),
+
       ),
       body: SafeArea(
         child: Padding(
